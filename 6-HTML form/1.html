@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            flex-flow: column;
+            border: 2px solid black;
+            width: 45vw;
+            padding : 10px 0 10px 10px;
+            border-radius: 10px;
+        }
+        input {
+            width: 15vw;
+        }
+        #checkbox {
+            border: 2px solid black;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="font-size: 25px;font-weight: bold;">Create an Account</div><br>
+        <label>Email:</label>
+        <input type="text" name="email"><br>
+        <label>Password:</label>
+        <input type="text" name="Password"><br>
+        <label>Age:</label>
+        <select id="age" name="age" style="width: 15vw;">
+            <option value="">Select Age</option>
+        </select><br>
+        <label>Tell us a little about yourself:</label>
+        <textarea style="width: 40vw; height: 10vh;"></textarea><br>
+        <div><input type="checkbox" style="width: 20px;">I agree to the<a href="">terms of service</a></div><br>
+        <input type="submit" value="Sign up" style="width : 10vw">
+    </div>
+</body>
+</html>
