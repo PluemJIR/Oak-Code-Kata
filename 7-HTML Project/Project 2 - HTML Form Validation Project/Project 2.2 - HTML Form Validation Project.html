@@ -71,19 +71,26 @@
         <h3><i>Form Fundamental</i></h3>
         <div class='customer-info'>
             <div>Customer Info</div>
-            <form class='customerinfoForm'>
+            <form class='customerinfoForm' autocomplete="on" action="/action_page.php">
                 <label>Name:</label>
-                <input type="text" name="email" placeholder="Enter your name"><br>
+                <input type="text" name="name" placeholder="Enter your name" autofocus required><br>
                 <label>Telephone:</label>
-                <input type="text" name="email" placeholder="Pattern 1-234-567-8910"><br>
+                <input type="text" name="phone" placeholder="Pattern 12-3456-7890" required maxlength = "12" required><br>
                 <label>Email address:</label>
-                <input type="text" name="email" placeholder="Enter your email address"><br>
+                <input type="text" name="email" placeholder="Enter your email address" multiple required><br>
             </form>
         </div>
         <div class='books'>
             <div>Books</div>
-            <form class='booksForm'>
-                <input type="text" name="bookname">
+            <form class='booksForm' autocomplete="on" action="/action_page.php">
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="Harry Potter">
+                    <option value="Star Soccer">
+                    <option value="The Toilet">
+                    <option value="FHM">
+                    <option value="A Day">
+                </datalist>
                 <label for="quantity">Quantity (Maximun 5):</label>
                 <input type="number" id="quantity" name="quantity" min="1" max="5" style="width: 180px; margin: 0;">
             </form>
