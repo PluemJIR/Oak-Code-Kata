@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 800px;
+            height: 450px;
+            border: 1px solid black
+        }
+        .customer-info{
+            border: 1px solid black;
+            margin: 10px;
+            height: 27vh;
+        }
+        .customer-info > div {
+            margin-top: -2vh;
+            margin-left: 1vw;
+            font-size: 17px;
+            width: 110px;
+            text-align: center;
+            background-color: white;
+        }
+        .customerinfoForm {
+            text-align: left;
+        }
+        .customerinfoForm {
+            margin-left: 100px;
+        }
+        form input {
+            margin-top: 20px;
+            width: 300px;
+        }
+        .books {
+            border: 1px solid black;
+            margin: 10px;
+            height: 12vh;
+        }
+        .books > div {
+            margin-top: -1.5vh;
+            margin-left: 1vw;
+            font-size: 17px;
+            width: 50px;
+            text-align: center;
+            background-color: white;
+        }
+        .booksForm input {
+            margin-left: 100px ;
+        }
+        h2,h3 {
+            margin: 5px 10px;
+        }
+        h2 {
+            color: rgb(0, 0, 141);
+        }
+        h3 {
+            color: rgb(195, 171, 201);
+        }
+
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <h2>A Simple Form</h2>
+        <h3><i>Form Fundamental</i></h3>
+        <div class='customer-info'>
+            <div>Customer Info</div>
+            <form class='customerinfoForm'>
+                <label>Name:</label>
+                <input type="text" name="email" placeholder="Enter your name"><br>
+                <label>Telephone:</label>
+                <input type="text" name="email" placeholder="Pattern 1-234-567-8910"><br>
+                <label>Email address:</label>
+                <input type="text" name="email" placeholder="Enter your email address"><br>
+            </form>
+        </div>
+        <div class='books'>
+            <div>Books</div>
+            <form class='booksForm'>
+                <input type="text" name="bookname">
+                <label for="quantity">Quantity (Maximun 5):</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5" style="width: 180px; margin: 0;">
+            </form>
+        </div>
+        <input type="submit" value="Submit" style="margin: 10px;">
+        <div style="margin-left: 60px ;">&#169; 2011 Acme United. All rights reserved.</div>
+    </div>
+</body>
+</html>
