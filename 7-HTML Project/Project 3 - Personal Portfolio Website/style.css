@@ -177,6 +177,7 @@ a, u {
 
 .flip-card-back {
     /* background-color: #2980b9; */
+    margin: 3% auto;
     color: white;
     transform: rotateY(180deg);
 }
@@ -193,6 +194,7 @@ a, u {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    font-weight:lighter ;
 }
 
 .nav a {
@@ -227,7 +229,7 @@ a, u {
 
 .concode {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     transition: color 0.5s ease-out;
     /* border: 2px solid white; */
@@ -236,6 +238,7 @@ a, u {
 .nav a:hover {
     color: yellowgreen;
     font-size: 1.3rem;
+    font-weight:bold;
 }
 
 #projects {
@@ -245,7 +248,7 @@ a, u {
     align-items: center;
     width: 100vw;
     height: 150vh;
-    margin: 12vh auto 5vh;
+    margin: 12vh auto 0;
     background-color: #2b2929;
 }
 
@@ -255,7 +258,7 @@ a, u {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 150vh;
-    margin: 12vh auto 5vh;
-    background-color: white;
+    height: 100vh;
+    margin: 12vh auto 0;
+    background-color: rgb(241, 203, 169);
 }
