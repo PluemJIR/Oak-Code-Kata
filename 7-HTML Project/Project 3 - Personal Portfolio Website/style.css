@@ -1,0 +1,261 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #171820;
+    /* background-color: white; */
+}
+
+a, u {
+    text-decoration: none;
+    color: white;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    margin: 0vh auto 0vh;
+    padding-top: 7vh;
+}
+
+.skill1 {
+    /* position:absolute; */
+    transition: color 0.3s ease-out;
+}
+
+.skill2 {
+    /* position:absolute; */
+    transition: color 0.3s ease-out;
+}
+
+.skill3 {
+    /* position:absolute; */
+    transition: color 0.3s ease-out;
+}
+
+.html {
+    margin: 0 0 0 65vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.5s;
+}
+
+.css {
+    margin: 0 0 0 -20vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.2s;
+    font-style: italic;
+}
+
+.js {
+    margin: 0 0 0 -60vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.1s;
+    font-weight: bolder;
+}
+
+.node {
+    margin: 0 0 0 50vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.3s;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.docker {
+    margin: 0 0 0 -40vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.4s;
+}
+
+.react {
+    margin: 0 0 0 30vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.7s;
+    font-weight: bolder;
+}
+
+.mysql {
+    margin: 0 0 0 85vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.4s;
+    font-style: italic;
+}
+
+.db {
+    margin: 0 0 0 -80vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.4s;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.uxui {
+    margin: 0 0 0 -10vw;
+    font-size: 1.5rem;
+    color: #171820;
+    transition-delay: 0.5s;
+    font-weight: bolder;
+}
+
+#welcome-section:hover .skill1 {
+    color: #aa3d01;
+    /* width: 0; */
+}
+
+#welcome-section:hover .skill2 {
+    color: #df861d;
+    /* width: 0; */
+}
+
+#welcome-section:hover .skill3 {
+    color: #fdc029;
+    /* width: 0; */
+}
+
+#welcome-section:hover .code {
+    color: #fdc029;
+    /* width: 0; */
+}
+
+.concode:hover .code {
+    color: white;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 50vw;
+    height: 20vh;
+    /* perspective: 1000px; */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    /* background-color: #bbb; */
+    color: black;
+}
+
+.flip-card-front h1 {
+    font-size: 2rem;
+    color: #fdc029;
+    margin: 10% auto;
+}
+
+.flip-card-back {
+    /* background-color: #2980b9; */
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.nav {
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    /* background-color: #222120; */
+    background-color: #1f1f41;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav a {
+    margin-right: 4vw;
+    transition: font-size 0.2s linear;
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+        justify-content: space-around;
+        /* flex-direction: column; */
+    }
+    .flip-card-front h1 {
+        margin-top: 15vw;
+        margin-left: -10vw;
+        font-size: 1.4rem;
+        color: #fdc029;
+        z-index: 3;
+    }
+    .code {
+        color: #171820;
+        z-index: -10;
+    }
+}
+
+.code {
+    color: #171820;
+    font-size: 8rem;
+    transition-delay: 0.5s;
+    font-weight: bolder;
+}
+
+.concode {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: color 0.5s ease-out;
+    /* border: 2px solid white; */
+}
+
+.nav a:hover {
+    color: yellowgreen;
+    font-size: 1.3rem;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 150vh;
+    margin: 12vh auto 5vh;
+    background-color: #2b2929;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 150vh;
+    margin: 12vh auto 5vh;
+    background-color: white;
+}
