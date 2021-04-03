@@ -14,27 +14,36 @@
 ---
 ในหัวข้อนี้จะสอนเกียวกับ พื้นฐานต่างๆของ Javascript เรียนรู้พื้นฐานต่างๆของ Data structures รูปแบบข้อมูลต่างๆ Object Array การใช้ Loop, if/else แบบพื้นฐาน
 
-
+![image](https://raw.githubusercontent.com/PluemJIR/Oak-Code-Kata/main/9-Super%20Javascript%20Practice/Basic%20Javascript.png)
 
 ### ES6
 ---
 จากบทที่แล้วจะเป็นการสอนที่มีมาตรฐาน ES5 แต่ในปัจจุบันมีการอัพเดทถึง ES6 แล้ว ในบทนี้จะสอนการทำงานต่างๆที่เพิ่มขึ้นมาใน ES6 โดยใน Codecamp มีการสอนที่เป็น ES6 อยู่แล้ว
 
+![image](https://raw.githubusercontent.com/PluemJIR/Oak-Code-Kata/main/9-Super%20Javascript%20Practice/ES6.png)
+
 ### Debuging
 ---
 การแก้บัคพื้นฐานต่างๆจากโค้ดที่ให้มา เพื่อป้องกันปัญหาที่อาจจะเกิดขึ้นในการทำงานจริง
+
+![image](https://raw.githubusercontent.com/PluemJIR/Oak-Code-Kata/main/9-Super%20Javascript%20Practice/Debugging.png)
 
 ### Basic Data Structures  
 ---
 เรียนรู้ความแตกต่าง Array และ Objects การเลือกใช้ในสถานการณืต่างๆ เรียนรู้การใช้ method ต่างๆ เช่น slice() splice() Object.keys()
 
+![image](https://raw.githubusercontent.com/PluemJIR/Oak-Code-Kata/main/9-Super%20Javascript%20Practice/Basic%20Data%20Structures.png)
 ### Basic Algorithm Scripting 
 ---
 พื้นฐานการเขียน Algorithm การคิดแก้ปัญหา Algorithm ที่มีความซับซ้อนได้
 
+![image](https://raw.githubusercontent.com/PluemJIR/Oak-Code-Kata/main/9-Super%20Javascript%20Practice/Basic%20Algorithm%20Scripting.png)
+
 ### Object Oriented Programming
 ---
 เรียนรู้ทฤษฎีของ OOP การใช้ this, Prototype, constructor
+
+![image](https://raw.githubusercontent.com/PluemJIR/Oak-Code-Kata/main/9-Super%20Javascript%20Practice/OOP.png)
 
 
 ## การนำไปปรับใช้ใน Project 
