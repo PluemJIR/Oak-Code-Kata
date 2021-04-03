@@ -1,4 +1,4 @@
-# Super Javascript Practice 
+# Super Javascript Practice - freeCodeCamp (Done)
 
 ## โจทย์
 ทำโจทย์ของ "JavaScript Algorithms and Data Structures Certification (300 hours)" ในหัวข้อต่อไปนี้  
